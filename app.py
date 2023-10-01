@@ -12,3 +12,4 @@ y = st.slider("Select an integer y", 0, 10, 1)
 
 df = pd.DataFrame({"x": [x], "y": [y] , "x + y": [x + y]}, index = ["addition row"])
 st.write(df)
+st.video("https://www.youtube.com/watch?v=Dydmpfo68DA")
